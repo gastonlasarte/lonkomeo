@@ -1,0 +1,170 @@
+body {
+	background: #f0f0f0;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	}
+
+h1 {
+	color: #666;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h6 {
+	color: #666;
+	font-size: 1em;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+.btn {
+	background: #999;
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	min-width: 135px;
+	padding: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+
+#btn-azul {
+	background: #2EAED9;
+}
+
+#btn-empate {
+	background: #FFFFCC;
+	color: #666;
+}
+
+#btn-rojo {
+	background: #FF5548;
+}
+
+
+#foto-azul .apodo-bboy,
+#foto-azul .wins-container {
+	right: 110%;
+}
+#foto-azul .apodo-bboy {
+	background: #2EAED9;
+}
+#foto-azul .wins-container {
+	text-align: right;
+}
+#foto-rojo .apodo-bboy,
+#foto-rojo .wins-container {
+	left: 110%;
+}
+#foto-rojo .apodo-bboy {
+	background: #FF5548;
+}
+#foto-rojo .wins-container {
+	text-align: left;
+}
+
+#ganador {
+	color: #666;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#resultado p {
+	font-size: 20px;
+}
+
+
+.apodo-bboy {
+	background: #ccc;
+	border-radius: 5px;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 700;
+	min-width: 320px;
+	padding: 10px;
+	position: absolute;
+	text-transform: uppercase;
+	top: 25%;
+}
+
+.azul {
+	border: 6px solid #2EAED9;
+}
+
+.bboy {
+	background-color: #ccc;
+	background-image: url(avatar-placeholder.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	display: inline-block;
+	height: 200px;
+	margin: 0 10px;
+	position: relative;
+	vertical-align: middle;
+	width: 200px;
+}
+	.bboy img {
+		display: block;
+	}
+
+.container {
+	padding: 40px 0;
+}
+
+.misc-vs {
+	background: #666;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 700;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	width: 50px;
+}
+
+.perdio {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: .5;
+	transition: all 0.4s ease-in-out;
+}
+
+.rojo {
+	border: 6px solid #FF5548;
+}
+
+.wins:first-child {
+	margin: 0;
+}
+.wins {
+	background: #ccc;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	margin: 0 0 0 5px;
+	padding: 0 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.wins.azul {
+	background: #2EAED9;
+}
+.wins.rojo {
+	background: #FF5548;
+}
+
+.wins-container {
+	bottom: 25%;
+	min-width: 320px;
+	position: absolute;
+}

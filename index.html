@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sistema de votación por LatinLingo</title>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<form id="ingreso-bboys" class="container">
+			<fieldset>
+				<h1>Inscribí a dos bboys</h1>
+				<h6>Uno a la vez</h6>
+				<input type="text" id="url-facebook" placeholder="FB ej: /nombredeusuario" />
+				<input type="text" id="apodo-bboy" placeholder="Apodo" />
+				<input type="button" value="Inscribir" id="btn-inscribir" />
+			</fieldset>
+		</form>
+
+		<section id="bboys" class="container">
+			<div id="foto-azul" class="bboy azul" style="">
+				<h2 id="apodo-bboy-1" class="apodo-bboy">Lado Azul</h2>
+				<div id="wins-1" class="wins-container"></div>
+			</div>
+			<span class="misc-vs">VS</span>
+			<div id="foto-rojo" class="bboy rojo" style="">
+				<h2 id="apodo-bboy-2" class="apodo-bboy">Lado Rojo</h2>
+				<div id="wins-2" class="wins-container"></div>
+			</div>
+		</section>
+		
+		<section id="botones" class="container">
+			<a href="#" id="btn-azul" class="btn">Azul</a>
+			<a href="#" id="btn-empate" class="btn">Empate</a>
+			<a href="#" id="btn-rojo" class="btn">Rojo</a>
+		</section>
+		
+		<section id="resultado" class="container">
+			<p id="ganador"></p>
+		</section>
+
+		<script src="votacion.js"></script>
+	<body>
+</html>
