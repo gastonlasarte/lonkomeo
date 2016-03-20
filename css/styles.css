@@ -81,6 +81,30 @@ ol {
     padding: 0;
 }
 
+#competitors-ranking {
+    border-collapse: collapse;
+    font-size: 1.5em;
+    width: 100%;
+}
+#competitors-ranking th {
+    text-align: left;
+    text-transform: uppercase;
+}
+#competitors-ranking tr {
+    border-bottom: 1px solid #fff;
+    line-height: 2;
+}
+#competitors-ranking tr td {
+    font-family: "bariol_lightlight", sans-serif;
+}
+#competitors-ranking tr.competitor-qualified td {
+    font-family: "bariol_boldbold", sans-serif;
+}
+
+#ranking.content {
+    padding: 3em 0;
+}
+
 #suscription-success .button {
     margin-top: 2em;
 }
