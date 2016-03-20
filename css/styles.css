@@ -81,6 +81,14 @@ ol {
     padding: 0;
 }
 
+#battle-result,
+#judges-vote {
+    text-align: center;
+}
+#battle-result .winner {
+    font-size: 6em;
+}
+
 #competitors-ranking {
     border-collapse: collapse;
     font-size: 1.5em;
@@ -99,6 +107,66 @@ ol {
 }
 #competitors-ranking tr.competitor-qualified td {
     font-family: "bariol_boldbold", sans-serif;
+}
+
+#judges-vote .judge-vote {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+}
+#judges-vote .judge-vote div {
+    margin-top: 1em;
+    height: 100px;
+    overflow: hidden;
+}
+#judges-vote .judge-vote div.blue-wins {
+    background: #2EAED9;
+}
+#judges-vote .judge-vote div.red-wins {
+    background: #FF5548;
+}
+#judges-vote .judge-vote div.tie {
+    background: #FFFFCC;
+}
+#judges-vote .judge-vote .judge-alias {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#judges-vote-screen ul {
+    text-align: center;
+}
+#judges-vote-screen ul li {
+    display: inline-block;
+    height: 200px;
+    vertical-align: middle;
+    width: 30%;
+}
+#judges-vote-screen ul li.judge-votes-blue {
+    background: #2EAED9;
+}
+#judges-vote-screen ul li.judge-votes-red {
+    background: #FF5548;
+}
+#judges-vote-screen ul li.judge-votes-tie {
+    background: #FFFFCC;
+}
+#judges-vote-screen .title .competitor-alias {
+    font-size: 1em;
+}
+#judges-vote-screen .title .competitor-alias.blue-side {
+    color: #2EAED9;
+}
+#judges-vote-screen .title .competitor-alias.red-side {
+    color: #FF5548;
+}
+
+#judges-vote-screen .title {
+    background: #000;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
 }
 
 #ranking.content {
@@ -223,4 +291,50 @@ ol {
     font-size: 5em;
     margin: 0;
     text-transform: uppercase;
+}
+
+.voting-system-header {
+    text-align: center;
+}
+.voting-system-header .actual-round {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.voting-system-header .competitor-side.blue {
+    float: right;
+    text-align: right;
+}
+.voting-system-header .competitor-side.blue .win {
+    background: #2EAED9;
+    color: #fff;
+}
+.voting-system-header .competitor-side.red {
+    float: left;
+    text-align: left;
+}
+.voting-system-header .competitor-side.red .win {
+    background: #FF5548;
+    color: #fff;
+}
+.voting-system-header .competitor-side .competitor-alias {
+    font-size: 1.5rem;
+}
+.voting-system-header .competitor-side .wins-list {
+    margin-top: 1em;
+}
+.voting-system-header .competitor-side .wins-list li {
+    background: #eee;
+    border-radius: 3px;
+    color: #999;
+    padding: 0 1em;
+    line-height: 1.5;
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.voting-system-header .competitor-side .wins-list li.tie {
+    background: #FFFFCC;
 }

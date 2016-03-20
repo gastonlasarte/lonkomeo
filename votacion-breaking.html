@@ -2,37 +2,47 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<title>Hablen Menos - Filtros HipHop</title>
+		<title>Hablen Menos - Ranking</title>
+		<meta name="description" content="" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body class="view">
-		<nav role="navigation">
-			<a href="#suscription" title="Inscripción">Inscripción</a>
-			<a href="filtros-breaking.html" title="Filtros Breaking">Filtros Breaking</a>
-			<a href="filtros-hiphop.html" title="Filtros HipHop">Filtros HipHop</a>
-			<a href="ranking.html" title="Ranking">Ranking</a>
-			<a href="/" title="Llaves">Llaves</a>
-			<a href="votacion-breaking.html" title="Votación Breaking">Votación Breaking</a>
-			<a href="/" title="Votación HipHop">Votación HipHop</a>
-		</nav>
-		<div id="breaking-voting-system">
-			<header class="breaking-voting-system-header" role="banner">
-				<h3 class="actual-round">Round 1</h3>
-				<section id="competitor-red-side" class="competitor-side red">
-					<h2 class="competitor-alias">lingo</h2>
-					<ol class="wins-list">
-						<li class="win">Round</li>
-						<li>Round</li>
-						<li>Round</li>
-					</ol>
-				</section>
-				<section id="competitor-blue-side" class="competitor-side blue">
-					<h2 class="competitor-alias">lingo</h2>
-					<ol class="wins-list">
-						<li class="win">Round</li>
-						<li>Round</li>
-						<li>Round</li>
-					</ol>
-				</section>
+		<div class="container">
+			<nav role="navigation">
+				<a href="index.html" title="Inscripción">Inscripción</a>
+				<a href="filtros-breaking.html" title="Filtros Breaking">Filtros Breaking</a>
+				<a href="filtros-hiphop.html" title="Filtros HipHop">Filtros HipHop</a>
+				<a href="ranking.html" title="Ranking">Ranking</a>
+				<a href="/" title="Llaves">Llaves</a>
+				<a href="votacion-breaking.html" title="Votación Breaking" class="active">Votación Breaking</a>
+				<a href="/" title="Votación HipHop">Votación HipHop</a>
+			</nav>
+			<div id="voting-system" class="content">
+				<header class="voting-system-header clearfix" role="banner">
+					<h3 class="actual-round">Round 1</h3>
+					<section id="competitor-red-side" class="competitor-side red">
+						<h2 class="competitor-alias">lingo</h2>
+						<ol class="wins-list">
+							<li class="win">Round 1</li>
+							<li class="tie">Round 2</li>
+							<li>Round 3</li>
+						</ol>
+					</section>
+					<section id="competitor-blue-side" class="competitor-side blue">
+						<h2 class="competitor-alias">leanbeat</h2>
+						<ol class="wins-list">
+							<li class="win">Round 1</li>
+							<li class="tie">Round 2</li>
+							<li>Round 3</li>
+						</ol>
+					</section>
+				</header>
 				<section id="battle-result">
 					<h1 class="winner">¡GANÓ LINGO!</h1>
 				</section>
@@ -43,16 +53,16 @@
 							<div class="red-wins"></div>
 						</li>
 						<li class="judge-vote">
-							<h4 class="judge-alias">Jurado 1</h4>
+							<h4 class="judge-alias">Jurado 2</h4>
 							<div class="blue-wins"></div>
 						</li>
 						<li class="judge-vote">
-							<h4 class="judge-alias">Jurado 1</h4>
+							<h4 class="judge-alias">Jurado 3</h4>
 							<div class="tie"></div>
 						</li>
 					</ul>
 				</section>
-				<section id="screen-judges-vote">
+				<section id="judges-vote-screen">
 					<h2 class="title">
 						<span class="braket-position">TOP 16</span>
 						<span class="competitor-alias red-side">Lingo</span> vs. 
@@ -64,10 +74,10 @@
 						<li class="judge-votes-blue"></li>
 					</ul>
 				</section>
-			</header>
-		</div><!-- breaking-voting-system -->
-		<footer role="footer">
-			<small>2016 - Bailen Más & Mano a Mano Battles</small>
-		</footer>
+			</div><!-- breaking-voting-system -->
+			<footer role="footer">
+				<small>2016 - Bailen Más & Mano a Mano Battles</small>
+			</footer>
+		</div>
 	</body>
 </html>
