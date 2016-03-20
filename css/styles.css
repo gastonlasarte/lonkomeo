@@ -37,6 +37,9 @@ form fieldset legend {
     margin-bottom: .625em;
     text-transform: uppercase;
 }
+form fieldset label:hover {
+    cursor: pointer;
+}
 form fieldset input[type="text"] {
     background: #eee;
     color: #333;
@@ -44,6 +47,10 @@ form fieldset input[type="text"] {
     border: none;
     min-width: 300px;
     padding: .625em;
+}
+
+h3.title {
+    font-size: 1.5em;
 }
 
 nav {
@@ -66,22 +73,19 @@ nav a:hover {
     background: #fff;
     color: #7ec0ea;
 }
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #suscription-success .button {
     margin-top: 2em;
 }
-#suscription-success .competitor-alias,
-#suscription-success .order-in-filters {
-    font-family: "bariol_boldbold_italic", sans-serif;
-    font-size: 5em;
-    line-height: 1;
-    margin: 0;
-    text-transform: uppercase;
-}
 #suscription-success .fa-check-square {
     margin-bottom: 2rem;
-}
-#suscription-success .title {
-    font-size: 1.5em;
 }
 
 .button {
@@ -120,9 +124,66 @@ nav a:hover {
     text-transform: none;
 }
 
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.comming-competitors-list {
+    margin: 1em 0;
+}
+.comming-competitors-list li {
+    border-left: 1px solid #fff;
+    display: inline-block;
+    font-family: "bariol_boldbold_italic", sans-serif;
+    font-size: 2em;
+    padding-left: 1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 22%;
+}
+.comming-competitors-list li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
 .common-text {
     font-family: "bariol_lightlight", sans-serif;
     margin: 0;
+}
+
+.competitor-alias,
+.order-in-filters {
+    font-family: "bariol_boldbold_italic", sans-serif;
+    font-size: 5em;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.competitor-alias-header {
+    background: #000;
+}
+.competitor-alias-header .competitor-alias {
+    float: left;
+    font-size: 1.5em;
+    padding: 1rem 0 0 1rem;
+}
+.competitor-alias-header .success-trigger {
+    background: #7ec0ea;
+    color: #fff;
+    float: right;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.competitor-score #score {
+    border: none;
+    color: #333;
+    font-size: 5em;
+    height: 200px;
 }
 
 .container {
