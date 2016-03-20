@@ -2,45 +2,55 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<title>Hablen Menos - Filtros HipHop</title>
+		<title>Hablen Menos - Inscripción</title>
+		<meta name="description" content="" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body class="view">
-		<nav role="navigation">
-			<a href="#suscription" title="Inscripción">Inscripción</a>
-			<a href="filtros-breaking.html" title="Filtros Breaking">Filtros Breaking</a>
-			<a href="filtros-hiphop.html" title="Filtros HipHop">Filtros HipHop</a>
-			<a href="ranking.html" title="Ranking">Ranking</a>
-			<a href="/" title="Llaves">Llaves</a>
-			<a href="votacion-breaking.html" title="Votación Breaking">Votación Breaking</a>
-			<a href="/" title="Votación HipHop">Votación HipHop</a>
-		</nav>
-		<div id="filters-hiphop">
-			<section class="screen-to-public">
-				<h3 class="title">En la pista</h3>
-				<p class="order-in-filters">#25</p>
-				<h1 class="competitor-alias">lingo & guizmo</h1>
-				<h3 class="title">Se van preparando</h3>
-				<ol id="comming-competitors" class="comming-competitors-list">
-					<li>Leanbeat</li>			
-					<li>Llano</li>			
-					<li>Lapso</li>			
-					<li>Percy</li>			
-				</ol>
-				<a href="#" title="Siguiente" class="button">Siguiente</a>
-			</section>
-			<!-- Este section es el que debe ver cada jurado en su celular para poder votar -->
-			<section class="screen-for-judges">
-				<header class="competitor-alias-header">
-					<h1 class="competitor-alias"><span class="order in filters">#25</span> Lingo & Guizmo</h1>
-					<a href="#" tile="Confirmar puntaje">OK</a>
-				</header>
-				<form id="competitor-score" action="/">
-					<input id="score" type="number" step="0.01" pattern="[0-9]*" inputmode="numeric" />
-				</form>
-			</section>
-		</div><!-- filters-hiphop -->
-		<footer role="footer">
-			<small>2016 - Bailen Más & Mano a Mano Battles</small>
-		</footer>
+		<div class="container">
+			<nav role="navigation">
+				<a href="#suscription" title="Inscripción">Inscripción</a>
+				<a href="filtros-breaking.html" title="Filtros Breaking">Filtros Breaking</a>
+				<a href="filtros-hiphop.html" title="Filtros HipHop" class="active">Filtros HipHop</a>
+				<a href="ranking.html" title="Ranking">Ranking</a>
+				<a href="/" title="Llaves">Llaves</a>
+				<a href="votacion-breaking.html" title="Votación Breaking">Votación Breaking</a>
+				<a href="/" title="Votación HipHop">Votación HipHop</a>
+			</nav>
+			<div id="filters-hiphop" class="content">
+				<section class="screen-to-public" style="display: none;">
+					<h3 class="title">En la pista</h3>
+					<p class="order-in-filters">#25</p>
+					<h1 class="competitor-alias">lingo & guizmo</h1>
+					<h3 class="title">Se van preparando</h3>
+					<ul id="comming-competitors" class="comming-competitors-list">
+						<li><span class="order">#26</span> Leanbeat</li>			
+						<li><span class="order">#27</span> Llano</li>			
+						<li><span class="order">#28</span> Lapso</li>			
+						<li><span class="order">#29</span> Percy</li>			
+					</ul>
+					<a href="#" title="Siguiente" class="button">Siguiente</a>
+				</section>
+				<!-- Este section es el que debe ver cada jurado en su celular para poder votar -->
+				<section class="screen-for-judges">
+					<header class="competitor-alias-header clearfix">
+						<h1 class="competitor-alias"><span class="order in filters">#25</span> Lingo & Guizmo</h1>
+						<a class="success-trigger" href="#" tile="Confirmar puntaje">OK</a>
+					</header>
+					<form id="competitor-score" class="competitor-score" action="/">
+						<input id="score" type="number" step="0.01" pattern="[0-9]*" placeholder="0.0 pts." inputmode="numeric" required />
+					</form>
+				</section>
+			</div><!-- filters-hiphop -->
+			<footer role="footer">
+				<small>2016 - Bailen Más & Mano a Mano Battles</small>
+			</footer>
+		</div>
 	</body>
 </html>
