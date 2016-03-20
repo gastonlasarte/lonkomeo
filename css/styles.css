@@ -11,6 +11,12 @@ body {
 	font-size: 16px;
 }
 
+footer {
+    border-top: 1px solid #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
 form {
     background: #fff;
     color: #7ec0ea;
@@ -60,6 +66,23 @@ nav a:hover {
     background: #fff;
     color: #7ec0ea;
 }
+#suscription-success .button {
+    margin-top: 2em;
+}
+#suscription-success .competitor-alias,
+#suscription-success .order-in-filters {
+    font-family: "bariol_boldbold_italic", sans-serif;
+    font-size: 5em;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+}
+#suscription-success .fa-check-square {
+    margin-bottom: 2rem;
+}
+#suscription-success .title {
+    font-size: 1.5em;
+}
 
 .button {
     background: #000;
@@ -97,9 +120,18 @@ nav a:hover {
     text-transform: none;
 }
 
+.common-text {
+    font-family: "bariol_lightlight", sans-serif;
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1020px;
+}
+
+.content {
+    padding: 100px 0;
 }
 
 .title {
