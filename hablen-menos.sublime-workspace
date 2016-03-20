@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform"
+			],
+			[
+				"competitor",
+				"competitor-alias"
+			],
+			[
+				"bario",
+				"bariol_lightlight"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"input",
 				"inputBudget"
 			]
@@ -12,35 +48,18 @@
 	"buffers":
 	[
 		{
-			"file": "votacion-breaking.html",
+			"file": "votacion-hiphop.html",
 			"settings":
 			{
-				"buffer_size": 2355,
-				"line_ending": "Windows",
-				"name": "<!doctype html>"
-			}
-		},
-		{
-			"file": "filtros-breaking.html",
-			"settings":
-			{
-				"buffer_size": 1661,
+				"buffer_size": 3074,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "filtros-hiphop.html",
+			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1760,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2073,
+				"buffer_size": 7739,
 				"line_ending": "Windows"
 			}
 		}
@@ -90,16 +109,25 @@
 	},
 	"expanded_folders":
 	[
-		"/C/hablen-menos"
+		"/C/hablen-menos",
+		"/C/hablen-menos/old-system"
 	],
 	"file_history":
 	[
-		"/C/hablen-menos/ranking.html",
-		"/C/hablen-menos/old-system/index.html",
-		"/C/hablen-menos/old-system/votacion.js",
-		"/C/hablen-menos/index.html",
+		"/C/hablen-menos/votacion-breaking.html",
 		"/C/hablen-menos/filtros-hiphop.html",
 		"/C/hablen-menos/filtros-breaking.html",
+		"/C/hablen-menos/ranking.html",
+		"/C/hablen-menos/index.html",
+		"/C/hablen-menos/css/fonts.css",
+		"/C/hablen-menos/css/styles.css",
+		"/C/hablen-menos/css/normalize.css",
+		"/C/hablen-menos/css/font-awesome.css",
+		"/C/Users/latinlingo/Desktop/font-awesome-4.5.0/css/font-awesome.css",
+		"/C/hablen-menos/css/font-awesome.min.css",
+		"/E/bck/trabajo/bixl.com.ar/web/index.html",
+		"/C/hablen-menos/old-system/index.html",
+		"/C/hablen-menos/old-system/votacion.js",
 		"/C/Users/latinlingo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/hablen-menos/LICENSE",
 		"/C/strands/pof/src/ui/modules/columnchart/columnchart-module-extension.js",
@@ -156,6 +184,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"WINNER",
+			"h1",
+			"#judges-vote .judge-vote div",
+			"tie",
+			"blue",
+			"ul",
+			"ol",
+			"5em",
+			".fa-check-square",
 			"ul",
 			"wins",
 			"h1",
@@ -216,113 +253,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "votacion-breaking.html",
+					"file": "votacion-hiphop.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2355,
+						"buffer_size": 3074,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								147
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!doctype html>",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "filtros-breaking.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1661,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								637,
-								637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "filtros-hiphop.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								635,
-								635
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2073,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								963,
-								963
+								107,
+								107
 							]
 						],
 						"settings":
@@ -338,6 +281,42 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1433,
+								1433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
@@ -346,7 +325,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"layout":
 	{
@@ -396,16 +375,76 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.html"
+			],
+			[
+				"rank",
+				"ranking.html"
+			],
+			[
+				"fi",
+				"filtros-breaking.html"
+			],
+			[
+				"vota",
+				"votacion-breaking.html"
+			],
+			[
+				"filtros",
+				"filtros-hiphop.html"
+			],
+			[
+				"fonts",
+				"css\\fonts.css"
+			],
+			[
+				"filtos",
+				"filtros-hiphop.html"
+			],
+			[
+				"rankin",
+				"ranking.html"
+			],
+			[
+				"vo",
+				"votacion-breaking.html"
+			],
+			[
+				"filtro",
+				"filtros-hiphop.html"
+			],
+			[
+				"styles",
+				"css\\styles.css"
+			],
+			[
+				"ranking",
+				"ranking.html"
+			],
+			[
+				"",
+				"filtros-hiphop.html"
+			],
+			[
+				"norma",
+				"css\\normalize.css"
+			],
+			[
+				"nor",
+				"css\\normalize.css"
+			],
+			[
+				"font",
+				"css\\fonts.css"
+			],
+			[
 				"index",
 				"old-system\\index.html"
 			],
 			[
 				"votacion",
 				"old-system\\votacion.js"
-			],
-			[
-				"",
-				"filtros-breaking.html"
 			],
 			[
 				"format",
@@ -441,12 +480,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 354.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 374.0
 	},
 	"selected_group": 1,
 	"settings":
@@ -455,7 +494,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 244.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -87,6 +87,8 @@ ol {
 }
 #battle-result .winner {
     font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 #competitors-ranking {
@@ -180,6 +182,10 @@ ol {
     margin-bottom: 2rem;
 }
 
+#voting-system {
+    position: relative;
+}
+
 .button {
     background: #000;
     border: none;
@@ -229,10 +235,10 @@ ol {
     border-left: 1px solid #fff;
     display: inline-block;
     font-family: "bariol_boldbold_italic", sans-serif;
-    font-size: 2em;
+    font-size: 1.2em;
     padding-left: 1em;
     text-transform: uppercase;
-    vertical-align: middle;
+    vertical-align: top;
     width: 22%;
 }
 .comming-competitors-list li:first-child {
@@ -278,13 +284,74 @@ ol {
     height: 200px;
 }
 
+.competitor-time {
+    color: #000;
+    font-family: "bariol_boldbold_italic", sans-serif;
+    font-size: 4.5em;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1020px;
 }
 
+#cypher-a-results,
+#cypher-b-results {
+    position: absolute;
+    top: 250px;
+}
+#cypher-a-results {
+    left: 0;
+}
+#cypher-b-results {
+    right: 0;
+}
+
+#cypher-a-results.cypher-side-container {
+    text-align: left;
+}
+#cypher-b-results.cypher-side-container {
+    text-align: right;
+}
+.cypher-side-container .cypher-side {
+    text-transform: uppercase;
+}
+.cypher-side-container .rounds-partial-results li {
+    border-radius: 3px;
+    color: #fff;
+    padding: 0 1em;
+    line-height: 1.5;
+    margin: .5em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cypher-side-container .rounds-partial-results li.blue {
+    background: #2EAED9;
+}
+.cypher-side-container .rounds-partial-results li.red {
+    background: #FF5548;
+}
+
 .content {
     padding: 100px 0;
+}
+
+.hiphop-round-indicator .competitor-alias {
+    font-size: 3.5em;
+}
+.hiphop-round-indicator .round-indicator {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.hiphop-round-indicator .round-indicator .competitor-time {
+    font-size: inherit;
+}
+.hiphop-round-indicator .wins-list {
+    margin-top: 0;
 }
 
 .title {
@@ -322,10 +389,10 @@ ol {
 .voting-system-header .competitor-side .competitor-alias {
     font-size: 1.5rem;
 }
-.voting-system-header .competitor-side .wins-list {
+.wins-list {
     margin-top: 1em;
 }
-.voting-system-header .competitor-side .wins-list li {
+.wins-list li {
     background: #eee;
     border-radius: 3px;
     color: #999;
@@ -335,6 +402,14 @@ ol {
     text-transform: uppercase;
     vertical-align: middle;
 }
-.voting-system-header .competitor-side .wins-list li.tie {
+.wins-list li.win.blue {
+    background: #2EAED9;
+    color: #fff;
+}
+.wins-list li.win.red {
+    background: #FF5548;
+    color: #fff;
+}
+.wins-list li.tie {
     background: #FFFFCC;
 }
