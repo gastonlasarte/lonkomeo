@@ -1,0 +1,51 @@
+/* fonts */
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('../fonts/bariol_bold-webfont.eot');
+    src: url('../fonts/bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_bold-webfont.woff') format('woff'),
+         url('../fonts/bariol_bold-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('../fonts/bariol_light-webfont.eot');
+    src: url('../fonts/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_light-webfont.woff') format('woff'),
+         url('../fonts/bariol_light-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bariol_boldbold_italic';
+    src: url('../fonts/bariol_bold_italic-webfont.eot');
+    src: url('../fonts/bariol_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_bold_italic-webfont.woff') format('woff'),
+         url('../fonts/bariol_bold_italic-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_bold_italic-webfont.svg#bariol_boldbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: 'bariollight_italic';
+    src: url('../fonts/bariol_light_italic-webfont.eot');
+    src: url('../fonts/bariol_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_light_italic-webfont.woff') format('woff'),
+         url('../fonts/bariol_light_italic-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_light_italic-webfont.svg#bariollight_italic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+
+}

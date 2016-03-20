@@ -1,0 +1,109 @@
+/*
+Theme Name: Hablen Menos
+Author: Gastón Lasarte & Tomás Milar
+Description: Theme realizado para Bailen Más
+*/
+
+body {
+	background: #7ec0ea;
+    color: #fff;
+    font-family: "bariol_boldbold", sans-serif;
+	font-size: 16px;
+}
+
+form {
+    background: #fff;
+    color: #7ec0ea;
+    padding: .625em;
+}
+form fieldset {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 0;
+    padding: .625em;
+}
+form fieldset:first-child {
+    border-top: none;
+}
+form fieldset label,
+form fieldset legend {
+    display: block;
+    margin-bottom: .625em;
+    text-transform: uppercase;
+}
+form fieldset input[type="text"] {
+    background: #eee;
+    color: #333;
+    display: inline-block;
+    border: none;
+    min-width: 300px;
+    padding: .625em;
+}
+
+nav {
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin-left: -3px;
+    padding: .625em 1.25em;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+nav a:first-child {
+    border-left: none;
+    margin-left: 0
+}
+nav a.active,
+nav a:hover {
+    background: #fff;
+    color: #7ec0ea;
+}
+
+.button {
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    color: #7ec0ea;
+    display: inline-block;
+    font-size: 1.2em;
+    height: 45px;
+    line-height: 45px;
+    min-width: 320px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.button:hover {
+    background: #7ec0ea;
+    color: #fff;
+}
+
+.cat-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16%;
+}
+.cat-container input[type="checkbox"],
+.cat-container label {
+    display: inline-block;
+    margin: 0 .3125em;
+    vertical-align: middle;
+}
+.cat-container label {
+    color: #999;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+.title {
+    font-size: 5em;
+    margin: 0;
+    text-transform: uppercase;
+}
